@@ -227,3 +227,9 @@ outputs/state/
 frontend/test-results/
 frontend/playwright-report/
 outputs/*.zip
+
+# Sensitive documents retained locally
+/data/FDE_Case_Study_Route_Planner.pdf
+/data/FDE Case Study v2 - Dispatch Planner.pdf
+/docs/demo_script.md
+/outputs/submission_deck.pdf
