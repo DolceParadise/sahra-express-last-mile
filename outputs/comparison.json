@@ -1,0 +1,216 @@
+{
+  "baseline": {
+    "metrics": {
+      "planned_consignments": 90,
+      "actual_completed": 0,
+      "unassigned_rows": 342,
+      "active_routes": 15,
+      "total_km": 1054.72,
+      "fixed_cost_aed": 2480.0,
+      "running_cost_aed": 718.76,
+      "overtime_cost_aed": 431.33,
+      "late_penalty_aed": 0,
+      "failure_rate_scenario": 0.15881,
+      "risk_cost_scenario_aed": 171.52,
+      "total_cost_scenario_aed": 3801.61,
+      "predicted_successes_scenario": 75.71,
+      "cost_per_success_scenario_aed": 50.21,
+      "planned_on_time_fraction": 1.0,
+      "average_duration_min": 476.7,
+      "workload_stddev_min": 147.7,
+      "workload_range_min": [
+        118,
+        597
+      ],
+      "average_weight_utilization": 0.167,
+      "available_drivers_used": 15,
+      "risk_note": "Both plans use the overall historical failure rate. It has not been calibrated for these addresses; field savings have not been measured"
+    },
+    "validation": {
+      "valid": true,
+      "hard_count": 0,
+      "soft_count": 9,
+      "findings": [
+        {
+          "code": "OVERTIME",
+          "severity": "SOFT",
+          "route": "R01",
+          "driver": "D09",
+          "vehicle": "V17",
+          "consignment_ids": [],
+          "explanation": "92 overtime minutes charged",
+          "recommended_correction": "Accept priced overtime or reduce workload"
+        },
+        {
+          "code": "OVERTIME",
+          "severity": "SOFT",
+          "route": "R02",
+          "driver": "D12",
+          "vehicle": "V04",
+          "consignment_ids": [],
+          "explanation": "106 overtime minutes charged",
+          "recommended_correction": "Accept priced overtime or reduce workload"
+        },
+        {
+          "code": "OVERTIME",
+          "severity": "SOFT",
+          "route": "R03",
+          "driver": "D25",
+          "vehicle": "V12",
+          "consignment_ids": [],
+          "explanation": "109 overtime minutes charged",
+          "recommended_correction": "Accept priced overtime or reduce workload"
+        },
+        {
+          "code": "OVERTIME",
+          "severity": "SOFT",
+          "route": "R04",
+          "driver": "D28",
+          "vehicle": "V16",
+          "consignment_ids": [],
+          "explanation": "117 overtime minutes charged",
+          "recommended_correction": "Accept priced overtime or reduce workload"
+        },
+        {
+          "code": "OVERTIME",
+          "severity": "SOFT",
+          "route": "R07",
+          "driver": "D21",
+          "vehicle": "V03",
+          "consignment_ids": [],
+          "explanation": "113 overtime minutes charged",
+          "recommended_correction": "Accept priced overtime or reduce workload"
+        },
+        {
+          "code": "OVERTIME",
+          "severity": "SOFT",
+          "route": "R08",
+          "driver": "D06",
+          "vehicle": "V11",
+          "consignment_ids": [],
+          "explanation": "15 overtime minutes charged",
+          "recommended_correction": "Accept priced overtime or reduce workload"
+        },
+        {
+          "code": "OVERTIME",
+          "severity": "SOFT",
+          "route": "R09",
+          "driver": "D10",
+          "vehicle": "V20",
+          "consignment_ids": [],
+          "explanation": "38 overtime minutes charged",
+          "recommended_correction": "Accept priced overtime or reduce workload"
+        },
+        {
+          "code": "OVERTIME",
+          "severity": "SOFT",
+          "route": "R13",
+          "driver": "D04",
+          "vehicle": "V07",
+          "consignment_ids": [],
+          "explanation": "56 overtime minutes charged",
+          "recommended_correction": "Accept priced overtime or reduce workload"
+        },
+        {
+          "code": "OVERTIME",
+          "severity": "SOFT",
+          "route": "R15",
+          "driver": "D18",
+          "vehicle": "V19",
+          "consignment_ids": [],
+          "explanation": "1 overtime minutes charged",
+          "recommended_correction": "Accept priced overtime or reduce workload"
+        }
+      ]
+    },
+    "runtime_seconds": 0.089,
+    "engine": "area-nearest-baseline"
+  },
+  "optimized": {
+    "metrics": {
+      "planned_consignments": 93,
+      "actual_completed": 0,
+      "unassigned_rows": 339,
+      "active_routes": 8,
+      "total_km": 664.08,
+      "fixed_cost_aed": 1420.0,
+      "running_cost_aed": 411.09,
+      "overtime_cost_aed": 127.34,
+      "late_penalty_aed": 0,
+      "failure_rate_scenario": 0.15881,
+      "risk_cost_scenario_aed": 177.23,
+      "total_cost_scenario_aed": 2135.66,
+      "predicted_successes_scenario": 78.23,
+      "cost_per_success_scenario_aed": 27.3,
+      "planned_on_time_fraction": 1.0,
+      "average_duration_min": 530.4,
+      "workload_stddev_min": 35.1,
+      "workload_range_min": [
+        448,
+        563
+      ],
+      "average_weight_utilization": 0.379,
+      "available_drivers_used": 8,
+      "risk_note": "Both plans use the overall historical failure rate. It has not been calibrated for these addresses; field savings have not been measured"
+    },
+    "validation": {
+      "valid": true,
+      "hard_count": 0,
+      "soft_count": 5,
+      "findings": [
+        {
+          "code": "OVERTIME",
+          "severity": "SOFT",
+          "route": "R01",
+          "driver": "D09",
+          "vehicle": "V17",
+          "consignment_ids": [],
+          "explanation": "83 overtime minutes charged",
+          "recommended_correction": "Accept priced overtime or reduce workload"
+        },
+        {
+          "code": "OVERTIME",
+          "severity": "SOFT",
+          "route": "R02",
+          "driver": "D12",
+          "vehicle": "V04",
+          "consignment_ids": [],
+          "explanation": "46 overtime minutes charged",
+          "recommended_correction": "Accept priced overtime or reduce workload"
+        },
+        {
+          "code": "OVERTIME",
+          "severity": "SOFT",
+          "route": "R03",
+          "driver": "D16",
+          "vehicle": "V01",
+          "consignment_ids": [],
+          "explanation": "34 overtime minutes charged",
+          "recommended_correction": "Accept priced overtime or reduce workload"
+        },
+        {
+          "code": "OVERTIME",
+          "severity": "SOFT",
+          "route": "R07",
+          "driver": "D20",
+          "vehicle": "V21",
+          "consignment_ids": [],
+          "explanation": "6 overtime minutes charged",
+          "recommended_correction": "Accept priced overtime or reduce workload"
+        },
+        {
+          "code": "OVERTIME",
+          "severity": "SOFT",
+          "route": "R08",
+          "driver": "D03",
+          "vehicle": "V06",
+          "consignment_ids": [],
+          "explanation": "22 overtime minutes charged",
+          "recommended_correction": "Accept priced overtime or reduce workload"
+        }
+      ]
+    },
+    "runtime_seconds": 1.296,
+    "engine": "ortools-cvrptw + feasible insertion"
+  }
+}

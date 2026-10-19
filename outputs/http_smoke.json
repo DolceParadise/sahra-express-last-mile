@@ -1,0 +1,17 @@
+{
+  "checks": {
+    "/api/health": 200,
+    "/": 200,
+    "/api/overview": 200,
+    "/api/inputs": 200,
+    "/api/addresses": 200
+  },
+  "planning_request_seconds": 1.271,
+  "declared_smoke_budget_seconds": 30,
+  "within_budget": true,
+  "planned": 93,
+  "unassigned": 339,
+  "hard_violations": 0,
+  "approved_version": 72,
+  "export_and_sheets": true
+}

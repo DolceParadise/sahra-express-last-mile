@@ -1,0 +1,16 @@
+
+> sahra-dispatch@0.1.0 build
+> tsc --noEmit && vite build
+
+vite v6.4.4 building for production...
+transforming...
+✓ 2298 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                         0.55 kB │ gzip:  0.33 kB
+dist/assets/RouteMap-CIGW-MKW.css      15.61 kB │ gzip:  6.46 kB
+dist/assets/index-DZKnfid5.css        121.62 kB │ gzip: 18.60 kB
+dist/assets/RouteMap-B0nr6VYE.js      151.52 kB │ gzip: 44.22 kB
+dist/assets/react-vendor-BhW1CUy-.js  223.65 kB │ gzip: 69.34 kB
+dist/assets/index-8PTa48p2.js         308.91 kB │ gzip: 97.93 kB
+✓ built in 1.82s
