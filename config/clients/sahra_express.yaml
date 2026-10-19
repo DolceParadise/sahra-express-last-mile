@@ -1,0 +1,114 @@
+client_id: sahra-express
+hub_id: AQ3
+hub_name: Al Quoz Industrial Area 3
+hub:
+- 25.129
+- 55.2405
+timezone: Asia/Dubai
+plan_date: '2026-10-14'
+planning_deadline: 08:30
+shift_start: 09:00
+delivery_hours:
+- 540
+- 1260
+slots:
+- - 540
+  - 780
+- - 780
+  - 1020
+- - 1020
+  - 1260
+slot_policy: hard
+max_work_min: 600
+break_after_min: 360
+break_min: 30
+cash_limit_aed: 5000
+overtime_aed_hour: 40
+summer_months:
+- 6
+- 7
+- 8
+- 9
+summer_bike_stop: 750
+summer_bike_resume: 900
+road_factor: 1.4
+speed_kmh: 30
+peak_speed_kmh: 20
+peak_periods:
+- - 420
+  - 570
+- - 1020
+  - 1200
+bike_speed_factor: 1.2
+revenue_aed: 16
+failure_cost_aed: 12
+late_penalty_aed: 5
+risk_policy: historical_overall_scenario
+service_min:
+  villa: 4
+  apartment: 8
+  office: 10
+  default: 8
+  cod: 2
+  extra: 1
+  gated: 5
+address:
+  min_observations: 2
+  cluster_radius_km: 0.15
+  min_cluster_fraction: 0.75
+  auto_threshold: 0.85
+  area_max_radius_km: 12
+objective:
+  unassigned_penalty: 1000000
+  late_penalty: 10000
+  cost_weight: 1
+  balance_weight: 0.03
+solver_seconds: 5
+external_geocoder_enabled: false
+field_mappings: {}
+licence_aliases:
+  light: LIGHT_VEHICLE
+vehicle_aliases:
+  small van: SMALL_VAN
+vehicle_types:
+  MOTORBIKE:
+    weight: 25
+    volume: 0.1
+    fixed: 90
+    per_km: 0.25
+    licence: MOTORCYCLE
+    max_item_weight: 10
+    max_item_cm: 60
+  SEDAN:
+    weight: 150
+    volume: 0.4
+    fixed: 140
+    per_km: 0.45
+    licence: LIGHT_VEHICLE
+  SMALL_VAN:
+    weight: 600
+    volume: 3
+    fixed: 220
+    per_km: 0.7
+    licence: LIGHT_VEHICLE
+  LARGE_VAN:
+    weight: 1200
+    volume: 8
+    fixed: 320
+    per_km: 0.95
+    licence: LIGHT_VEHICLE
+    helper: true
+  CHILLED_VAN:
+    weight: 500
+    volume: 2.5
+    fixed: 380
+    per_km: 1.1
+    licence: LIGHT_VEHICLE
+    chilled: true
+service_emirates:
+- Dubai
+manual_coordinate_bounds:
+- 24
+- 26
+- 54
+- 56

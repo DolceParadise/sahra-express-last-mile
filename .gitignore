@@ -218,3 +218,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local app state and dependencies
+.DS_Store
+node_modules/
+outputs/state/
+*.sqlite3
+frontend/test-results/
+frontend/playwright-report/
+outputs/*.zip

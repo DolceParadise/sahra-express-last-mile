@@ -1,0 +1,12 @@
+services:
+  dispatch:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      SAHRA_CLIENT: sahra_express
+      SAHRA_DB: /app/outputs/state/plans.sqlite3
+    volumes:
+      - sahra-state:/app/outputs/state
+volumes:
+  sahra-state:
